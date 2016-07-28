@@ -1,3 +1,7 @@
+img{
+	max-width: 100%;
+}
+
 .the-table{
 	background-color: green;
 	border: 5px solid #663300;
@@ -12,6 +16,7 @@
 	color: black;
 	margin: 10px;
 	width: 13%;
+	padding: 0px;
 }
 
 .dealer-hand-wrapper, .player-hand-wrapper, .header-wrapper{
@@ -20,7 +25,7 @@
 	text-align: center;
 }
 
-.dealer-total-number, .player-total-number{
+.dealer-total-number, .player-total-number, .bank-total, .bet-total{
 	display: block;
 	text-align: center;
 }
@@ -35,10 +40,11 @@
 .message-center{
 	background-color: #fff;
 	color: black;
-	height: 30px;
+	height: 120px;
 	text-align: center;
 	font-size: 20px;
 	margin: 10px;
+	line-height: 120px;
 }
 
 .deck{
